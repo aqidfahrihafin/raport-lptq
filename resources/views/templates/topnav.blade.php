@@ -7,12 +7,12 @@
 
                       <li class="nav-item">
                           <a class="nav-link  arrow-none" href="{{ '/' }}" id="topnav-dashboard" role="button"
-                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              aria-expanded="false">
                               <i class="bx bx-home-circle mr-2"></i>Dashboard </a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link  arrow-none" href="{{ '/profilpesantren' }}" id="topnav-dashboard"
-                              role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              aria-expanded="false">
                               <i class="bx bx-user mr-2"></i>Profil Pesantren </a>
                       </li>
                       <li class="nav-item dropdown">
