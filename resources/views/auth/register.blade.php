@@ -16,7 +16,6 @@
 </head>
 
 <body>
-
     <div class="account-pages my-5 pt-sm-5">
         <div class="container">
             <div class="row justify-content-center">
@@ -26,13 +25,12 @@
                             <div class="row">
                                 <div class="col-7">
                                     <div class="text-primary p-4">
-                                        <h5 class="text-primary">Welcome Back !</h5>
-                                        <p>Sign in to continue to Skote.</p>
+                                        <h5 class="text-primary">Free Register</h5>
+                                        <p>Get your free Skote account now.</p>
                                     </div>
                                 </div>
                                 <div class="col-5 align-self-end">
-                                    <img src="{{ asset('assets/images/profile-img.png') }}" alt=""
-                                        class="img-fluid">
+                                    <img src="assets\images\profile-img.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -41,14 +39,20 @@
                                 <a href="index.html">
                                     <div class="avatar-md profile-user-wid mb-4">
                                         <span class="avatar-title rounded-circle bg-light">
-                                            <img src="{{ asset('assets/images/logo.svg') }}" alt=""
-                                                class="rounded-circle" height="34">
+                                            <img src="assets\images\logo.svg" alt="" class="rounded-circle"
+                                                height="34">
                                         </span>
                                     </div>
                                 </a>
                             </div>
                             <div class="p-2">
                                 <form class="form-horizontal" action="index.html">
+
+                                    <div class="form-group">
+                                        <label for="useremail">Email</label>
+                                        <input type="email" class="form-control" id="useremail"
+                                            placeholder="Enter email">
+                                    </div>
 
                                     <div class="form-group">
                                         <label for="username">Username</label>
@@ -62,21 +66,13 @@
                                             placeholder="Enter password">
                                     </div>
 
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customControlInline">
-                                        <label class="custom-control-label" for="customControlInline">Remember
-                                            me</label>
-                                    </div>
-
-                                    <div class="mt-3">
+                                    <div class="mt-4">
                                         <button class="btn btn-primary btn-block waves-effect waves-light"
-                                            type="submit">Log In</button>
+                                            type="submit">Register</button>
                                     </div>
-
-
 
                                     <div class="mt-4 text-center">
-                                        <h5 class="font-size-14 mb-3">Sign in with</h5>
+                                        <h5 class="font-size-14 mb-3">Sign up using</h5>
 
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
@@ -101,8 +97,8 @@
                                     </div>
 
                                     <div class="mt-4 text-center">
-                                        <a href="auth-recoverpw.html" class="text-muted"><i
-                                                class="mdi mdi-lock mr-1"></i> Forgot your password?</a>
+                                        <p class="mb-0">By registering you agree to the Skote <a href="#"
+                                                class="text-primary">Terms of Use</a></p>
                                     </div>
                                 </form>
                             </div>
@@ -112,8 +108,8 @@
                     <div class="mt-5 text-center">
 
                         <div>
-                            <p>Don't have an account ? <a href="auth-register.html"
-                                    class="font-weight-medium text-primary"> Signup now </a> </p>
+                            <p>Already have an account ? <a href="auth-login.html"
+                                    class="font-weight-medium text-primary"> Login</a> </p>
                             <p>© 2020 Skote. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
                         </div>
                     </div>

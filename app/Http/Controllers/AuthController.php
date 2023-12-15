@@ -14,7 +14,12 @@ class AuthController extends Controller
     }
 
     public function login() {
-        return view('auth.login');
+        $data = [  'title' => 'Halaman Login', ];
+        return view('auth.login',$data);
+    }
+    public function register() {
+        $data = [  'title' => 'Halaman Register', ];
+        return view('auth.register',$data);
     }
 
     /**
