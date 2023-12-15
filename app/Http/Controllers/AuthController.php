@@ -9,14 +9,12 @@ class AuthController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
-    {
+    public function index() {
         //
     }
 
-    public function login()
-    {
-        echo "test";
+    public function login() {
+        return view('auth.login');
     }
 
     /**
