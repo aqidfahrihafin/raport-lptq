@@ -19,3 +19,7 @@ Route::get('/login', [App\Http\Controllers\AuthController::class, 'login']);
 Route::get('/register', [App\Http\Controllers\AuthController::class, 'register']);
 Route::get('/lupapw', [App\Http\Controllers\AuthController::class, 'lupa_pw']);
 
+Route::resource('/profilpesantren', App\Http\Controllers\ProfilPesantrenController::class);
+
+
+

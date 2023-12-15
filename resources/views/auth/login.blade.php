@@ -48,7 +48,7 @@
                                 </a>
                             </div>
                             <div class="p-2">
-                                <form class="form-horizontal" action="#">
+                                <form class="form-horizontal" action="{{ '/profilpesantren' }}">
 
                                     <div class="form-group">
                                         <label for="username">Username</label>
