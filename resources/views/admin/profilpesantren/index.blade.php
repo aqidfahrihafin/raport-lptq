@@ -40,7 +40,7 @@
                                         <img src="assets\images/logo1.png" alt=""
                                             class="img-thumbnail rounded-circle">
                                     </div>
-                                    <h5 class="font-size-15 text-truncate">LPTQ MATSARATUL HUDA</h5>
+                                    <h5 class="font-size-15 text-truncate">PP. APINS DIGITAL</h5>
                                     <p class="text-muted mb-0 text-truncate">admin</p>
                                     <div class="mt-2">
                                         <a href="" class="btn btn-primary waves-effect waves-light btn-sm">Edit
@@ -89,7 +89,7 @@
                                     <tbody>
                                         <tr>
                                             <th scope="row">Nama </th>
-                                            <td>LPTQ MATSARATUL HUDA</td>
+                                            <td>PONDOK PESANTREN APINS DIGITAL</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">NSM </th>
