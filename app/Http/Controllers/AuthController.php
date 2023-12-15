@@ -21,6 +21,10 @@ class AuthController extends Controller
         $data = [  'title' => 'Halaman Register', ];
         return view('auth.register',$data);
     }
+    public function lupa_pw() {
+        $data = [  'title' => 'Halaman Lupa Password', ];
+        return view('auth.lupa-pw',$data);
+    }
 
     /**
      * Show the form for creating a new resource.
