@@ -20,6 +20,8 @@ Route::get('/register', [App\Http\Controllers\AuthController::class, 'register']
 Route::get('/lupapw', [App\Http\Controllers\AuthController::class, 'lupa_pw']);
 
 Route::resource('/profilpesantren', App\Http\Controllers\ProfilPesantrenController::class);
+Route::resource('/pengaturan', App\Http\Controllers\PengaturanController::class);
+Route::resource('/mapel', App\Http\Controllers\MapelController::class);
 
 
 
