@@ -7,7 +7,7 @@
                         <div class="card-body">
                             <h4 class="card-title mb-4">Data Mata Pelajaran</h4>
                             <div class="table-responsive">
-                                data mapel
+                                data kelas
                             </div>
                         </div>
                     </div>

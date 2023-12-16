@@ -4,14 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MapelController extends Controller
+class KelasController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index(){
-        $data = [  'title' => 'Mata Pelajaran',];
-        return view('admin.mapel.index',$data);
+        $data = ['title'=>'Data Kelas',];
+        return view('admin.kelas.index',$data);
     }
 
     /**
