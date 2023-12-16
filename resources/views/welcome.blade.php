@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title>ICO Landing | Skote - Responsive Bootstrap 4 Admin Dashboard</title>
+    <title>PP. APINS DIGITAL</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description">
     <meta content="Themesbrand" name="author">
@@ -30,8 +30,8 @@
     <nav class="navbar navbar-expand-lg navigation fixed-top sticky">
         <div class="container">
             <a class="navbar-logo" href="{{ '/' }}">
-                <img src="assets\images\logo-dark.png" alt="" height="19" class="logo logo-dark">
-                <img src="assets\images\logo-light.png" alt="" height="19" class="logo logo-light">
+                <img src="assets/images/logo/dark.png" alt="" height="35" class="logo logo-dark">
+                <img src="assets/images/logo/light.png" alt="" height="35" class="logo logo-light">
             </a>
 
             <button type="button" class="btn btn-sm px-3 font-size-16 d-lg-none header-item waves-effect waves-light"
@@ -64,10 +64,12 @@
             <div class="row align-items-center">
                 <div class="col-lg-5">
                     <div class="text-white-50">
-                        <h1 class="text-white font-weight-semibold mb-3 hero-title">E-Raport Digital LPTQ Matsaratul
-                            Huda</h1>
-                        <p class="font-size-14">It will be as simple as occidental in fact to an English person, it will
-                            seem like simplified as a skeptical Cambridge</p>
+                        <h1 class="text-white font-weight-semibold mb-3 hero-title">E-Raport Digital Pondok Pesantren
+                            Apins Digital</h1>
+                        <p class="font-size-14">Aplikasi Raport Digital diharapkan dapat mendukung program Pesantren
+                            Digital di, agar dapat memberikan layanan yang cepat, tepat dan akurat kepada seluruh
+                            warga pesantren.
+                            Amin.....!!!</p>
 
                         <div class="button-items mt-4">
                             <a href="{{ '/register' }}" class="btn btn-success">Register Now</a>
@@ -185,10 +187,10 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="mb-4">
-                        <img src="assets\images\logo-light.png" alt="" height="20">
+                        <img src="assets/images/logo/dark.png" alt="" height="35">
                     </div>
 
-                    <p class="mb-2">2020 © Skote. Design & Develop by Themesbrand</p>
+                    <p class="mb-2">2023 © E-Raport. Design & Develop by Aqid Fahri Hafin</p>
                     <p>It will be as simple as occidental in fact, it will be to an english person, it will seem like
                         simplified English, as a skeptical</p>
                 </div>
