@@ -9,19 +9,19 @@
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description">
     <meta content="Themesbrand" name="author">
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets\images\favicon.ico">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
 
     <!-- owl.carousel css -->
-    <link rel="stylesheet" href="assets\libs\owl.carousel\assets\owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/libs/owl.carousel/assets/owl.carousel.min.css">
 
-    <link rel="stylesheet" href="assets\libs\owl.carousel\assets\owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/libs/owl.carousel/assets/owl.theme.default.min.css">
 
     <!-- Bootstrap Css -->
-    <link href="assets\css\bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css">
     <!-- Icons Css -->
-    <link href="assets\css\icons.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
     <!-- App Css-->
-    <link href="assets\css\app.min.css" id="app-style" rel="stylesheet" type="text/css">
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -78,7 +78,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-8 col-sm-10 ml-lg-auto">
-                    <img src="assets\images\crypto\features-img\img-2.png" alt=""
+                    <img src="assets/images/crypto/features-img/img-2.png" alt=""
                         class="img-fluid mx-auto d-block">
                 </div>
             </div>
@@ -202,24 +202,24 @@
     <!-- Footer end -->
 
     <!-- JAVASCRIPT -->
-    <script src="assets\libs\jquery\jquery.min.js"></script>
-    <script src="assets\libs\bootstrap\js\bootstrap.bundle.min.js"></script>
-    <script src="assets\libs\metismenu\metisMenu.min.js"></script>
-    <script src="assets\libs\simplebar\simplebar.min.js"></script>
-    <script src="assets\libs\node-waves\waves.min.js"></script>
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/node-waves/waves.min.js"></script>
 
-    <script src="assets\libs\jquery.easing\jquery.easing.min.js"></script>
+    <script src="assets/libs/jquery.easing/jquery.easing.min.js"></script>
 
     <!-- Plugins js-->
-    <script src="assets\libs\jquery-countdown\jquery.countdown.min.js"></script>
+    <script src="assets/libs/jquery-countdown/jquery.countdown.min.js"></script>
 
     <!-- owl.carousel js -->
-    <script src="assets\libs\owl.carousel\owl.carousel.min.js"></script>
+    <script src="assets/libs/owl.carousel/owl.carousel.min.js"></script>
 
     <!-- ICO landing init -->
-    <script src="assets\js\pages\ico-landing.init.js"></script>
+    <script src="assets/js/pages/ico-landing.init.js"></script>
 
-    <script src="assets\js\app.js"></script>
+    <script src="assets/js/app.js"></script>
 
 </body>
 
