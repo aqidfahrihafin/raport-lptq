@@ -8,7 +8,7 @@
                     <div class="clearfix">
                         <div class="float-right">
                             <div class="input-group input-group-sm">
-                                <button type="button" class="btn btn-secondary btn-sm  waves-light" data-toggle="modal" data-target=".bs-example-modal-center">
+                                <button type="button" class="btn btn-secondary btn-sm  waves-light">
                                     <i class="bx bx-loader bx-spin font-size-16 align-middle"></i>
                                 </button>
                             </div>
