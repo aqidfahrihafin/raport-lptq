@@ -1,5 +1,5 @@
- <header id="page-topbar" class="bg-soft-primary">
-     <div class="navbar-header" >
+ <header id="page-topbar" class="bg-primary">
+     <div class="navbar-header">
          <div class="d-flex">
              <!-- LOGO -->
              <div class="navbar-brand-box">
@@ -92,8 +92,7 @@
              <div class="dropdown d-inline-block">
                  <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     <img class="rounded-circle header-profile-user" src="assets/images/logo1.png"
-                         alt="Header Avatar">
+                     <img class="rounded-circle header-profile-user" src="assets/images/logo1.png" alt="Header Avatar">
                  </button>
                  <div class="dropdown-menu dropdown-menu-right">
                      <!-- item-->
