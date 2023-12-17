@@ -47,7 +47,7 @@
                           </a>
                           <div class="dropdown-menu" aria-labelledby="topnav-dashboard">
 
-                              <a href="#" class="dropdown-item">Data Santri</a>
+                              <a href="{{'/santri'}}" class="dropdown-item">Data Santri</a>
                               <a href="#" class="dropdown-item">Pindah Kelas</a>
                               <a href="#" class="dropdown-item">Naik Kelas</a>
                               <a href="#" class="dropdown-item">Data Alumni</a>

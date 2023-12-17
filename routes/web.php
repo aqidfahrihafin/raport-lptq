@@ -23,6 +23,8 @@ Route::resource('/profilpesantren', App\Http\Controllers\ProfilPesantrenControll
 Route::resource('/pengaturan', App\Http\Controllers\PengaturanController::class);
 Route::resource('/mapel', App\Http\Controllers\MapelController::class);
 Route::resource('/kelas', App\Http\Controllers\KelasController::class);
+Route::resource('/guru', App\Http\Controllers\GuruController::class);
+Route::resource('/santri', App\Http\Controllers\SantriController::class);
 
 
 
