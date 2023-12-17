@@ -27,6 +27,9 @@
                                     <th>Nama</th>
                                     <th>NIY</th>
                                     <th>L/P</th>
+                                    <th>TTL</th>
+                                    <th>Pendidikan</th>
+                                    <th>Pembimbing</th>
                                     <th>Status</th>
                                     <th width="100px">Action</th>
                                 </tr>
@@ -39,6 +42,9 @@
                                     <td>Apin</td>
                                     <td>0909090</td>
                                     <td>L</td>
+                                    <td>Sumenep, 17 Januari 2000</td>
+                                    <td>Sarjana (S1)</td>
+                                    <td>A.23</td>
                                     <td align="center">
                                         <span class="badge badge-pill badge-success font-size-8">Aktif</span>
                                     </td>
@@ -59,4 +65,70 @@
         </div>
     </div>
     <!-- end row -->
+
+    {{-- modal add --}}
+<div class="modal fade bs-example-modal-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered  modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title mt-0">Add {{ $title }}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+
+                    <div class="form-group">
+                        <label for="nik">NIK/NIY</label>
+                        <input type="text" class="form-control" id="nik">
+                    </div>
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" class="form-control" id="nama">
+                    </div>
+                    <div class="form-group">
+                        <label for="ttl">Tempat Lahir</label>
+                        <input type="text" class="form-control" id="ttl">
+                    </div>
+                    <div class="form-group">
+                        <label for="tgl">Tanggal Lahir</label>
+                        <input type="date" class="form-control" id="tgl">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Jenis Kelamin</label>
+                        <select class="form-control">
+                                <option value="L">Laki-laki</option>
+                                <option value="P">Perempuan</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Pendidikan</label>
+                        <select class="form-control">
+                                <option value="">SD Sedrajat</option>
+                                <option value="">SMP Sedrajat</option>
+                                <option value="">SMA Sedrajat</option>
+                                <option value="">Sarjana S1</option>
+                                <option value="">D1</option>
+                                <option value="">Sarjana S2</option>
+                                <option value="">D2</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Status</label>
+                        <select class="form-control">
+                                <option value="">Aktif</option>
+                                <option value="">Non Aktif</option>
+                        </select>
+                    </div>
+                    <hr>
+                    <div align="right">
+                        <button type="submit" class="btn btn-primary  w-md">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
 @endsection
