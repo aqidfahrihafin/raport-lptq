@@ -20,8 +20,6 @@
 </div>
 <!-- END layout-wrapper -->
 
-
-
 <!-- JAVASCRIPT -->
 <script src="{{ asset('assets/libs/jquery/jquery.min.js') }}" ></script>
 <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
@@ -47,6 +45,8 @@
 <script src="{{ asset('assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js') }}"></script>
 <script src="{{ asset('assets/js/pages/datatables.init.js') }}"></script>
 
+<script src="{{ asset('assets/js/pages/form-validation.init.js') }}"></script>
+<script src="{{ asset('assets\libs\parsleyjs\parsley.min.js') }}"></script>
 <script src="{{ asset('assets/js/app.js') }}"></script>
 </body>
 

@@ -1,7 +1,52 @@
 @extends('templates.content')
 @section('content')
     <div class="row">
-        <div class="col-xl-12">
+        <div class="col-xl-4">
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="clearfix">
+                        <div class="float-right">
+                            <div class="input-group input-group-sm">
+                                <button type="button" class="btn btn-secondary btn-sm  waves-light" data-toggle="modal" data-target=".bs-example-modal-center">
+                                    <i class="bx bx-loader bx-spin font-size-16 align-middle"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <h4 class="card-title mb-4">Pengaturan Tahun Ajaran</h4>
+                        <hr>
+                    </div>
+
+                    <div class="alert alert-primary" role="alert" align="justify">
+                        <i class="mdi mdi-bullseye-arrow"></i>
+                        <b>Perhatian !</b> Halaman ini digunakan untuk menentukan tahun ajaran dan semester default pada halaman aplikasi <b>E-Raport</b>. Silahkan aktifkan tahun ajaran dan semester sesuai dengan yang berjalan di madrasah anda.
+                    </div>
+                    <div class="table-responsive">
+
+                        <form>
+                            <div class="form-group">
+                                <label class="control-label">Tahun Ajaran</label>
+                                <select class="form-control">
+                                        <option value="">2023/2024</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Semester</label>
+                                <select class="form-control">
+                                        <option value="">Ganjil</option>
+                                </select>
+                            </div>
+                            <hr>
+                            <div align="right">
+                                <button type="submit" class="btn btn-primary  w-md">Submit</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-8">
             <div class="card">
                 <div class="card-body">
 
@@ -13,7 +58,7 @@
                                 </button>
                             </div>
                         </div>
-                        <h4 class="card-title mb-4">Tahun Ajaran</h4>
+                        <h4 class="card-title mb-4">Data Tahun Ajaran</h4>
                         <hr>
                     </div>
 

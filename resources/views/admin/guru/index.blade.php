@@ -8,7 +8,7 @@
                     <div class="clearfix">
                         <div class="float-right">
                             <div class="input-group input-group-sm">
-                                <button type="button" class="btn btn-primary btn-sm waves-effect btn-label waves-light"><i
+                                <button type="button" class="btn btn-primary btn-sm waves-effect btn-label waves-light" data-toggle="modal" data-target=".bs-example-modal-center"><i
                                         class="bx bx-plus label-icon"></i> Add
                                 </button>
                             </div>
@@ -68,7 +68,7 @@
 
     {{-- modal add --}}
 <div class="modal fade bs-example-modal-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered  modal-lg">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title mt-0">Add {{ $title }}</h5>
@@ -77,23 +77,18 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form>
-
+                <form class="custom-validation"  action="#">
+                    <div class="alert alert-primary alert-dismissible fade show" role="alert" align="justify">
+                        <i class="mdi mdi-bullseye-arrow"></i>
+                        <b>Perhatian !</b> pastikan anda memasukkan NIK/NIY dengan benar, data NIK/NIY tidak dapat di update.
+                    </div>
                     <div class="form-group">
                         <label for="nik">NIK/NIY</label>
-                        <input type="text" class="form-control" id="nik">
+                        <input type="text" class="form-control" id="nik" required="">
                     </div>
                     <div class="form-group">
                         <label for="nama">Nama</label>
-                        <input type="text" class="form-control" id="nama">
-                    </div>
-                    <div class="form-group">
-                        <label for="ttl">Tempat Lahir</label>
-                        <input type="text" class="form-control" id="ttl">
-                    </div>
-                    <div class="form-group">
-                        <label for="tgl">Tanggal Lahir</label>
-                        <input type="date" class="form-control" id="tgl">
+                        <input type="text" class="form-control" id="nama" required="">
                     </div>
                     <div class="form-group">
                         <label class="control-label">Jenis Kelamin</label>
@@ -103,8 +98,16 @@
                         </select>
                     </div>
                     <div class="form-group">
+                        <label for="ttl">Tempat Lahir</label>
+                        <input type="text" class="form-control" id="ttl" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="tgl">Tanggal Lahir</label>
+                        <input type="date" class="form-control" id="tgl" required="">
+                    </div>
+                    <div class="form-group">
                         <label class="control-label">Pendidikan</label>
-                        <select class="form-control">
+                        <select class="form-control" required="">
                                 <option value="">SD Sedrajat</option>
                                 <option value="">SMP Sedrajat</option>
                                 <option value="">SMA Sedrajat</option>
@@ -116,17 +119,18 @@
                     </div>
                     <div class="form-group">
                         <label class="control-label">Status</label>
-                        <select class="form-control">
+                        <select class="form-control" required="">
                                 <option value="">Aktif</option>
                                 <option value="">Non Aktif</option>
                         </select>
                     </div>
-                    <hr>
-                    <div align="right">
-                        <button type="submit" class="btn btn-primary  w-md">Submit</button>
-                    </div>
-                </form>
-            </div>
+                 </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Simpan</button>
+                </div>
+          </form>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div>
