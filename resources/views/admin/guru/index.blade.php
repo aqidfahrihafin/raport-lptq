@@ -26,7 +26,7 @@
                                     <th width="10px">No</th>
                                     <th>Nama</th>
                                     <th>NIY</th>
-                                    <th>Jenis Kelamin</th>
+                                    <th>L/P</th>
                                     <th>Status</th>
                                     <th width="100px">Action</th>
                                 </tr>
@@ -38,7 +38,7 @@
                                     <td>1</td>
                                     <td>Apin</td>
                                     <td>0909090</td>
-                                    <td>Laki-laki</td>
+                                    <td>L</td>
                                     <td align="center">
                                         <span class="badge badge-pill badge-success font-size-8">Aktif</span>
                                     </td>
