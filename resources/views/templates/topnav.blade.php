@@ -24,6 +24,7 @@
 
                               <a href="{{ '/pengaturan' }}" class="dropdown-item">Pengaturan</a>
                               <a href="{{ '/mapel' }}" class="dropdown-item">Mata Pelajaran</a>
+                              <a href="{{ '/tingkatkelas' }}" class="dropdown-item">Tingkat Kelas</a>
                               <a href="{{ '/kelas' }}" class="dropdown-item">Data Kelas</a>
                           </div>
                       </li>

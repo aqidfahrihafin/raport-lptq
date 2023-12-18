@@ -22,6 +22,7 @@ Route::get('/lupapw', [App\Http\Controllers\AuthController::class, 'lupa_pw']);
 Route::resource('/profilpesantren', App\Http\Controllers\ProfilPesantrenController::class);
 Route::resource('/pengaturan', App\Http\Controllers\PengaturanController::class);
 Route::resource('/mapel', App\Http\Controllers\MapelController::class);
+Route::resource('/tingkatkelas', App\Http\Controllers\TingkatKelasController::class);
 Route::resource('/kelas', App\Http\Controllers\KelasController::class);
 Route::resource('/guru', App\Http\Controllers\GuruController::class);
 Route::resource('/santri', App\Http\Controllers\SantriController::class);
