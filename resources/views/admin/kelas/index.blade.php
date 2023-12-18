@@ -27,8 +27,8 @@
                         <div class="col-xl-6">
                             <form>
                                 <div class="form-group">
-                                    <label class="control-label">Sanah Dirasah</label>
-                                    <select class="form-control">
+                                    <label class="control-label"  id="sanah-d">Sanah Dirasah</label>
+                                    <select class="form-control" id="sanah-d">
                                         <option value="">1445 H</option>
                                     </select>
                                 </div>
@@ -103,8 +103,8 @@
 
                     <form>
                         <div class="form-group">
-                            <label class="control-label">Sanah Dirasah</label>
-                            <select class="form-control">
+                            <label class="control-label" id="sanah-dirasah">Sanah Dirasah</label>
+                            <select class="form-control" id="sanah-dirasah">
                                 <option value="">1445 H</option>
                             </select>
                         </div>

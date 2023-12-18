@@ -69,9 +69,9 @@
                                     <td>Tahfidz</td>
                                     <td>
                                         <form>
-                                                <select class="form-control form-control-sm">
-                                                    <option value="">Apins Digital</option>
-                                                </select>
+                                            <select class="form-control form-control-sm">
+                                                <option value="">Apins Digital</option>
+                                            </select>
                                         </form>
                                     </td>
                                     <td align="center">

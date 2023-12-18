@@ -39,7 +39,15 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Apin</td>
+                                    <td>
+                                        <a href="#" class="media">
+                                            <img class="d-flex mr-3 rounded-circle" src="assets\images\users\avatar-2.jpg" alt="Generic placeholder image" height="36">
+                                            <div class="media-body chat-user-box">
+                                                <p class="user-title m-0">Aqid Fahri Hafin</p>
+                                                <p class="text-muted m-0">Guru</p>
+                                            </div>
+                                        </a>
+                                    </td>
                                     <td>0909090</td>
                                     <td>L</td>
                                     <td>Sumenep, 17 Januari 2000</td>
@@ -67,72 +75,72 @@
     <!-- end row -->
 
     {{-- modal add --}}
-<div class="modal fade bs-example-modal-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-scrollable">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title mt-0">Add {{ $title }}</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form class="custom-validation"  action="#">
-                    <div class="alert alert-primary alert-dismissible fade show" role="alert" align="justify">
-                        <i class="mdi mdi-bullseye-arrow"></i>
-                        <b>Perhatian !</b> pastikan anda memasukkan NIK/NIY dengan benar, data NIK/NIY tidak dapat di update.
-                    </div>
-                    <div class="form-group">
-                        <label for="nik">NIK/NIY</label>
-                        <input type="text" class="form-control" id="nik" required="">
-                    </div>
-                    <div class="form-group">
-                        <label for="nama">Nama</label>
-                        <input type="text" class="form-control" id="nama" required="">
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Jenis Kelamin</label>
-                        <select class="form-control">
-                                <option value="L">Laki-laki</option>
-                                <option value="P">Perempuan</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="ttl">Tempat Lahir</label>
-                        <input type="text" class="form-control" id="ttl" required="">
-                    </div>
-                    <div class="form-group">
-                        <label for="tgl">Tanggal Lahir</label>
-                        <input type="date" class="form-control" id="tgl" required="">
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Pendidikan</label>
-                        <select class="form-control" required="">
-                                <option value="">SD Sedrajat</option>
-                                <option value="">SMP Sedrajat</option>
-                                <option value="">SMA Sedrajat</option>
-                                <option value="">Sarjana S1</option>
-                                <option value="">D1</option>
-                                <option value="">Sarjana S2</option>
-                                <option value="">D2</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Status</label>
-                        <select class="form-control" required="">
-                                <option value="">Aktif</option>
-                                <option value="">Non Aktif</option>
-                        </select>
-                    </div>
-                 </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Simpan</button>
+    <div class="modal fade bs-example-modal-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title mt-0">Add {{ $title }}</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-          </form>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
+                <div class="modal-body">
+                    <form class="custom-validation"  action="#">
+                        <div class="alert alert-primary alert-dismissible fade show" role="alert" align="justify">
+                            <i class="mdi mdi-bullseye-arrow"></i>
+                            <b>Perhatian !</b> pastikan anda memasukkan NIK/NIY dengan benar, data NIK/NIY tidak dapat di update.
+                        </div>
+                        <div class="form-group">
+                            <label for="nik">NIK/NIY</label>
+                            <input type="text" class="form-control" id="nik" required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input type="text" class="form-control" id="nama" required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Jenis Kelamin</label>
+                            <select class="form-control">
+                                    <option value="L">Laki-laki</option>
+                                    <option value="P">Perempuan</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="ttl">Tempat Lahir</label>
+                            <input type="text" class="form-control" id="ttl" required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="tgl">Tanggal Lahir</label>
+                            <input type="date" class="form-control" id="tgl" required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Pendidikan</label>
+                            <select class="form-control" required="">
+                                    <option value="">SD Sedrajat</option>
+                                    <option value="">SMP Sedrajat</option>
+                                    <option value="">SMA Sedrajat</option>
+                                    <option value="">Sarjana S1</option>
+                                    <option value="">D1</option>
+                                    <option value="">Sarjana S2</option>
+                                    <option value="">D2</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Status</label>
+                            <select class="form-control" required="">
+                                    <option value="">Aktif</option>
+                                    <option value="">Non Aktif</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Simpan</button>
+                    </div>
+            </form>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 @endsection
