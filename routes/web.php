@@ -25,6 +25,7 @@ Route::resource('/mapel', App\Http\Controllers\MapelController::class);
 Route::resource('/tingkatkelas', App\Http\Controllers\TingkatKelasController::class);
 Route::resource('/kelas', App\Http\Controllers\KelasController::class);
 Route::resource('/guru', App\Http\Controllers\GuruController::class);
+Route::resource('/aspekajar', App\Http\Controllers\DataMengajarController::class);
 Route::resource('/santri', App\Http\Controllers\SantriController::class);
 
 

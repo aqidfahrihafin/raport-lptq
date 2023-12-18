@@ -37,7 +37,7 @@
                           <div class="dropdown-menu" aria-labelledby="topnav-dashboard">
 
                               <a href="{{ '/guru' }}" class="dropdown-item">Data Guru</a>
-                              <a href="#" class="dropdown-item">Mengajar</a>
+                              <a href="{{ '/aspekajar' }}" class="dropdown-item">Aspek Ajar</a>
                           </div>
                       </li>
 

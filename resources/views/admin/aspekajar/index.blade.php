@@ -20,7 +20,7 @@
 
                     <div class="alert alert-primary" role="alert" align="justify">
                         <i class="mdi mdi-bullseye-arrow"></i>
-                        <b>Perhatian !</b> Halaman ini digunakan untuk menambahkan kelas pada aplikasi <b>E-Raport</b>. Silahkan pilih Sanah Dirasah dan semester sesuai dengan kelas yang ingin di tambahkan.
+                        <b>Perhatian !</b> Halaman ini digunakan untuk menambahkan aspek ajar atau jadwal guru pada <b>E-Raport</b>. Silahkan pilih Sanah Dirasah dan semester sesuai dengan kelas yang ingin di tambahkan.
                     </div>
 
                     <div class="row">
@@ -55,7 +55,7 @@
                             <thead>
                                 <tr>
                                     <th width="10px">No</th>
-                                    <th>Sanah Dirasah</th>
+                                    <th>Aspek Ajar</th>
                                     <th>Tingkat Kelas</th>
                                     <th>Pembimbing</th>
                                     <th width="50px">Action</th>
@@ -65,12 +65,18 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>1445 H</td>
+                                    <td>Tartil</td>
                                     <td>Tahfidz</td>
-                                    <td>Apins Digital</td>
+                                    <td>
+                                        <form>
+                                                <select class="form-control form-control-sm">
+                                                    <option value="">Apins Digital</option>
+                                                </select>
+                                        </form>
+                                    </td>
                                     <td align="center">
-                                        <button type="button" class="btn btn-warning waves-effect waves-light btn-sm">
-                                            <i class="mdi mdi-pencil"></i>
+                                        <button type="button" class="btn btn-danger waves-effect waves-light btn-sm">
+                                            <i class="mdi mdi-delete"></i>
                                         </button>
                                     </td>
                                 </tr>
